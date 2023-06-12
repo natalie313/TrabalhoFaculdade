@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFE3D5;
+}
+
+/*header*/
+.header-img img {
+    width: 120%;
+}
+
+.header-pesquisa img {
+    margin-right: 8em;
+}
+
+.header-texto {
+    margin-top: 3%;
+}
+
+.header-texto h6 {
+    margin-bottom: 30px;
+}
+
+.header-pesquisa input {
+    width: 50%;
+    padding-top: 5px;
+}
+
+.header-lado-esquerdo {
+    display: flex;
+    margin-left: 10px;
+}
+
+/*header - lado direito*/
+.header-lado-direito {
+    margin-left: 800px;
+    margin-top: -120px;
+}
+
+.lista-header ul li {
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 5px;
+    padding-left: 8px;
+}
+
+li {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.header-carrinho img {
+    margin-left: 360px;
+    margin-top: -120px;
+}
+
+.header-carrinho h6 {
+    margin-left: 350px;
+    margin-top: -50px;
+}
+
+.header-texto2 {
+    margin-right: 50px;
+}
+
+
+/*PRODUTOS*/
+.produtos-principal-fila {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: -20px;
+}
+
+.card-produto {
+    margin-left: 15px;
+}
+
+.card-produto p {
+    margin-bottom: -2px;
+}
+
+.card-produto h6 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.texto-preco {
+    display: flex;
+}
+
+.texto-riscado {
+    text-decoration: line-through;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.card-produto22 {
+    margin-left: -300px;
+}
+
+.card-produto22 h6 {
+    font-weight: bold;
+}
+
+.card-produto22 p {
+    margin-bottom: -2px;
+}
+
+.card-produto3 {
+    margin-left: -300px;
+}
+
+.card-produto3 h6 {
+    font-weight: bold;
+}
+
+.card-produto3 p {
+    margin-bottom: -2px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.img-estrelas img {
+    margin-bottom: 2px;
+}
+
+/*PRODUTOS LATERIAS*/
+.produto-laterais {
+    background-color: #ffc7e6;
+    width: 20%;
+    text-align: center;
+    margin-left: 990px;
+    margin-top: -1070px;
+    margin-bottom: 2px;
+}
+
+.primeiro-produto p {
+    font-size: 15px;
+    margin-bottom: -2px;
+}
+
+hr{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.primeiro-produto img{
+    margin-top: 12px;
+}
+
+button{
+    background-color: #fd6cbc;
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin-top: 2px;
+}
+
+.button-see{
+    margin-left: 120px;
+}
+
+/*CAIXA DEPOIS DA CAIXA LATERAL*/
+.select-caixa{
+    background-color: #ffc7e6;
+    margin-top: 20px;
+    margin-left: 999px;
+    margin-right: 2px;
+    width: 20%;
+}
+
+.select-caixa h6{
+    margin-left: 20px;
+}
+
+.select-caixa input{
+    margin-left: 20px;
+}
+
+.button-join{
+    margin-left: 100px;
+}
+
+
+footer{
+    margin-top: 80px;
+    background-color: #ffc7e6;
+    width: 100%;   
+}
+
+.div-rodape{
+    display: flex;
+}
+
+.div-pagamento h6{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+

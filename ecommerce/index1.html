@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link bootstrap estrelas-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--Titulo Pagina-->
+    <title>Loja Make</title>
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="styles.css" class="">
+</head>
+
+<body>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--HEADER-->
+    <div class="header-principal">
+        <div class="header-lado-esquerdo">
+            <div class="header-img">
+                <img src="img/logo-semfundo.png" alt="imagem logo site" width="30%">
+            </div>
+
+            <div class="header-texto">
+                <h6>Bem vinda(o) ao nosso site!</h6>
+
+                <div class="header-pesquisa">
+                    <input type="text" class="">
+                    <img src="img/iconePesquisa.png" alt="barra de pesquisa" width="3%">
+                </div>
+            </div>
+        </div>
+
+        <div class="header-lado-direito">
+            <div class="lista-header">
+                <ul>
+                    <li>Sign in |</li>
+                    <li>Register |</li>
+                    <li>My account |</li>
+                    <li>Track order |</li>
+                </ul>
+            </div>
+
+            <div class="texto-direito">
+                <div class="header-texto2">
+                    <h6>Cash on Delivery | 30 Day Return
+                        <br><br>
+                        24/7 Customer Service 1800 00 11 22 <h6>
+                </div>
+
+                <div class="header-carrinho">
+                    <img src="img/iconeCarrinhoCompra.png" alt="" width="5%">
+                    <h6>MY CART</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="text" id="search-input" placeholder="Digite o texto da pesquisa">
+    <button type="submit">Pesquisar</button>
+
+    <!--FORMULARIO PROXIMO AO CARROSSEL-->
+    <!--<form>
+        <h3>Quick Find - Choose product</h3>
+        <h4>Find the right product at the <br> right price</h4>
+
+        <section name="Type">
+            <option value="text">Type</option>
+        </section>
+
+        <section name="Brand">
+            <option value="text">Brand</option>
+        </section>
+
+        <section name="Category">
+            <option value="text">Category</option>
+        </section>
+
+        <label for="text">$</label>
+        <input type="text" name="From" id="">
+
+        <label for="text">$</label>
+        <input type="text" name="To" id="">
+
+        <button><img src="img/iconePesquisa.png" alt="" class="">Search</button>
+    </form>-->
+
+    <!--CARROSSEL-->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!--PRODUTOS PRINCIPAIS-->
+    <!--Primeira fila de produtos-->
+    <div class="produtos-principal-fila">
+        <div class="card-produto">
+            <img src="img/produto4-PincelMaquiagem.jpg" alt="" class="">
+            <p class="text-pincel">Pincel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto22">
+            <img src="img/produto5-rimel.jpg" alt="" class="">
+            <p>Rimel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto3">
+            <img src="img/produto6-blushMac.jpg" alt="" class="" width="38%">
+            <p>Blush mac</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--Segunda fila de produtos-->
+    <div class="produtos-principal-fila">
+        <div class="card-produto">
+            <img src="img/produto4-PincelMaquiagem.jpg" alt="" class="">
+            <p class="text-pincel">Pincel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto22">
+            <img src="img/produto5-rimel.jpg" alt="" class="">
+            <p>Rimel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto3">
+            <img src="img/produto6-blushMac.jpg" alt="" class="" width="38%">
+            <p>Blush mac</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--Terceira fila de produtos-->
+    <div class="produtos-principal-fila">
+        <div class="card-produto">
+            <img src="img/produto4-PincelMaquiagem.jpg" alt="" class="">
+            <p class="text-pincel">Pincel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto22">
+            <img src="img/produto5-rimel.jpg" alt="" class="">
+            <p>Rimel</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+
+        <div class="card-produto3">
+            <img src="img/produto6-blushMac.jpg" alt="" class="" width="38%">
+            <p>Blush mac</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="20%">
+            </div>
+            <div class="texto-preco">
+                <h6>R$685.00</h6>
+                <h6 class="texto-riscado">Rs.790 14% OFF</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--PRODUTOS LATERIAIS-->
+    <div class="produto-laterais">
+        <div class="primeiro-produto">
+            <img src="img/produtoLateral1-SerumWePink.jpg" alt="" width="40%">
+            <p>Serum WePink</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="40%">
+            </div>
+            <h6>R$685.00</h6>
+        </div>
+
+        <hr>
+
+        <div class="primeiro-produto">
+            <img src="img/produtoLateral2-Demaquilante.jpg" alt="" width="40%">
+            <p>Demaquilante</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="30%">
+            </div>
+            <h6>R$685.00</h6>
+        </div>
+
+        <hr>
+
+        <div class="primeiro-produto">
+            <img src="img/produtoLateral3-LipTint.jpg" alt="" width="40%">
+            <p>Lip tint</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="35%">
+            </div>
+            <h6>R$685.00</h6>
+        </div>
+
+        <hr>
+
+        <div class="primeiro-produto">
+            <img src="img/produtoLateral4-Hidratante.jpg" alt="" width="40%">
+            <p>Hidratante</p>
+            <div class="img-estrelas">
+                <img src="img/estrelas-classificacao.png" alt="" width="30%">
+            </div>
+            <h6>R$685.00</h6>
+        </div>
+
+        <button class="button-see">See more</button>
+    </div>
+
+    <!--CAIXINHA LATERAL BAIXO-->
+    <div class="select-caixa">
+        <h6>NewsLetter</h6>
+        <h6>Signup for NewsLetter</h6>
+        <input type="text" name="" id="">
+
+        <br>
+        <button class="button-join">Join Now</button>
+    </div>
+
+    <!--RODAPE-->
+    <footer class="rodape">
+        <div class="div-rodape">
+            <div class="div-pagamento">
+                <h6>Formas de pagamento</h6>
+                <img src="img/iconeCartaoMasterCard.png" alt="" class="" width="8%">
+                <img src="img/iconeCartaoPicPay.png" alt="" class="" width="8%">
+                <img src="img/iconeCartaoVisa.png" alt="" class="" width="8%">
+            </div>
+
+            <div class="div-contatos">
+                <h6>Contato</h6>
+                <img src="img/iconeEmail.jpg" alt="" class="" width="8%">
+                <img src="img/iconeFacebook.png" alt="" class="" width="8%">
+                <img src="img/iconeTelefone.png" alt="" class="" width="8%">
+            </div>
+        </div>
+    </footer>
+
+    <script src="arquivo.js"></script>
+
+</body>
+
+</html>
